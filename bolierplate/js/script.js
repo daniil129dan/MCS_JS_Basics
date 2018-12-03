@@ -1,1 +1,7 @@
-console.log('You are at '+window.location);
+let a = (prompt('сколько у вас с собой есть денег?'))
+let b = (prompt('сколько вы купили яблок?'));
+let c = (prompt('сколько вы купили батонов хлеба?'))
+let d = (prompt('сколько стоит одно яблоко?'));
+let e = (prompt('сколько стоит один батон хлеба?'));
+
+alert(a>b*d+c*e)
